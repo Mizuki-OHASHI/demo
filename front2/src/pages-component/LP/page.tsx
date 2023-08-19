@@ -86,7 +86,7 @@ export const LP: FC = () => {
           <div className="flex flex-row text-blue-50 text-2xl font-mono m-auto">
             <div className="my-auto">SciConnect を推す</div>
             <Number5 size={48} color="skyblue" />
-            <div className="my-auto">つの理由。</div>
+            <div className="my-auto">つの理由.</div>
           </div>
         </div>
         <div className="w-full h-96 bg-gradient-to-l from-blue-800 to-blue-200  flex flex-row">
