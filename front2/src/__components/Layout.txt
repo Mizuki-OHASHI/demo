@@ -1,0 +1,9 @@
+import { ReactNode } from "react";
+
+type Props = {
+  children: ReactNode;
+};
+
+export const Layout = ({ children, ...props }: Props) => {
+  return <div {...props}>{children}</div>;
+};
