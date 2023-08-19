@@ -1,0 +1,1 @@
+export { SettingsChannel } from "./page";
