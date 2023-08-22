@@ -39,7 +39,7 @@ export const Parser: FC<Props> = (props) => {
         switch (arr[i].id) {
           case 0:
             return (
-              <div key={line} className={`${arr[i].cn}`}>
+              <div className={`${arr[i].cn}`}>
                 {line.replace(arr[i].re, "")}
               </div>
             );
@@ -98,8 +98,8 @@ export const Parser: FC<Props> = (props) => {
 
   return (
     <div key={props.lines}>
-      {lineArr.map((line) => {
-        return lineParser(line);
+      {lineArr.map((line, index) => {
+        return <div key={index}>{lineParser(line)}</div>;
       })}
     </div>
   );

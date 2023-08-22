@@ -44,7 +44,7 @@ export const RequestJoinChannel = async (
     alert("チャンネルに参加しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました6");
+    alert("サーバーとの接続に失敗しました at RequestJoinChannel");
     console.error(err);
     return false;
   }
@@ -88,7 +88,7 @@ export const RequestJoinWorkspace = async (
     alert("ワークスペースに参加しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました6");
+    alert("サーバーとの接続に失敗しました at RequestJoinWorkspace");
     console.error(err);
     return false;
   }

@@ -32,7 +32,7 @@ export const RequestDeleteMessage = async (
     updateMessage();
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました9");
+    alert("サーバーとの接続に失敗しました at RequestDeleteMessage");
     console.error(err);
     return;
   }
@@ -66,7 +66,7 @@ export const RequestDeleteReply = async (
     updateReply();
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました9");
+    alert("サーバーとの接続に失敗しました at RequestDeleteReply");
     console.error(err);
     return;
   }
@@ -97,7 +97,7 @@ export const RequestDeleteUser = async (userId: string) => {
     alert("アカウントを削除しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました11");
+    alert("サーバーとの接続に失敗しました at RequestDeleteUser");
     console.error(err);
     return false;
   }
@@ -133,7 +133,7 @@ export const RequestDeleteChannel = async (
     alert("チャンネルを削除しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました11");
+    alert("サーバーとの接続に失敗しました at RequestDeleteChannel");
     console.error(err);
     return false;
   }
@@ -172,7 +172,7 @@ export const RequestDeleteWorkspace = async (
     alert("ワークスペースを削除しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました11wd");
+    alert("サーバーとの接続に失敗しました at RequestDeleteWorkspace");
     console.error(err);
     return false;
   }

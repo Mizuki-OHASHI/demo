@@ -50,7 +50,6 @@ func channelGet(w http.ResponseWriter, r *http.Request) {
 	channelId := query.Get("id")
 
 	channelInfo := usecase.ChannelGet(channelId)
-	fmt.Println("channelInfo", channelInfo)
 
 	if channelInfo.Error.Code == 1 {
 		w.WriteHeader(http.StatusInternalServerError)

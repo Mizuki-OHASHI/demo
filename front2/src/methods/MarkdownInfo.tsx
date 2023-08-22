@@ -1,8 +1,7 @@
 import { HoverCard, Divider } from "@mantine/core";
-import { FC } from "react";
 import { QuestionMark } from "tabler-icons-react";
 
-export const MarkdownInfo: FC = () => {
+export const MarkdownInfo = () => {
   return (
     <HoverCard shadow="md" closeDelay={1000}>
       <HoverCard.Target>

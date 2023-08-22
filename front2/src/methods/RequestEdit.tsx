@@ -38,7 +38,7 @@ export const RequestEditMessage = async (
     updateMessage();
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました10");
+    alert("サーバーとの接続に失敗しました at RequestEditMessage");
     console.error(err);
     return;
   }
@@ -76,7 +76,7 @@ export const RequestEditReply = async (
     updateReply();
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました10");
+    alert("サーバーとの接続に失敗しました at RequestEditReply");
     console.error(err);
     return;
   }
@@ -112,7 +112,7 @@ export const RequestEditUser = async (
     alert("ユーザー情報を編集しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました10u");
+    alert("サーバーとの接続に失敗しました at RequestEditUser");
     console.error(err);
     return false;
   }
@@ -157,7 +157,7 @@ export const RequestEditChannel = async (
     alert("チャンネル情報を編集しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました10c");
+    alert("サーバーとの接続に失敗しました at RequestEditChannel");
     console.error(err);
     return false;
   }
@@ -204,7 +204,7 @@ export const RequestEditWorkspace = async (
     alert("ワークスペース情報を編集しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました10we");
+    alert("サーバーとの接続に失敗しました at RequestEditWorkspace");
     console.error(err);
     return false;
   }

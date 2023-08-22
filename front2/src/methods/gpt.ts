@@ -52,7 +52,7 @@ export const GPT = async (
     // );
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました (GPT)");
+    alert("サーバーとの接続に失敗しました at GPT");
     console.error(err);
     return;
   }

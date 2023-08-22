@@ -1,9 +1,7 @@
 import {
   ChannelInfo,
-  EmptyChannel,
   EmptyChannelInfo,
   EmptyMessageInfo,
-  Message,
   MessageInfo,
 } from "@/methods/Type";
 import { FC, useState, useEffect } from "react";

@@ -89,7 +89,7 @@ export const PostMessages: FC<Props> = (props) => {
             <div>
               <div className="flex mb-1 mx-6">
                 <UploadImageContainer setBody={setBody} />
-                <MarkdownInfo />
+                {/* <MarkdownInfo /> */}
                 <Validation body={body} title={title} />
 
                 <button

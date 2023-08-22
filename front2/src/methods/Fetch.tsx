@@ -53,7 +53,7 @@ export const FetchUserInfo = async (
     setUserInfo(userInfo);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました3");
+    alert("サーバーとの接続に失敗しました at FetchUserInfo");
     console.error(err);
     return;
   }
@@ -86,7 +86,7 @@ export const FetchChannelInfo = async (
     setChannelInfo(channelInfo);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました7");
+    alert("サーバーとの接続に失敗しました at FetchChannelInfo");
     console.error(err);
     return;
   }
@@ -119,7 +119,7 @@ export const FetchWorkspaceInfo = async (
     setWorkspaceInfo(workspaceInfo);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました8");
+    alert("サーバーとの接続に失敗しました at FetchWorkspaceInfo");
     console.error(err);
     return;
   }
@@ -152,7 +152,7 @@ export const FetchMessageInfo = async (
     setMessageInfo(messageInfo);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました7");
+    alert("サーバーとの接続に失敗しました at FetchMessageInfo");
     console.error(err);
     return;
   }
@@ -184,7 +184,7 @@ export const FetchAllWorkspaces = async (
     setWorkspaces(workspaces);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました7w");
+    alert("サーバーとの接続に失敗しました at FetchAllWorkspaces");
     console.error(err);
     return;
   }
@@ -221,7 +221,7 @@ export const FetchUserStatistics = async (
     setUserStatistics(us);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました1s");
+    alert("サーバーとの接続に失敗しました at FetchUserStatistics");
     console.error(err);
     return;
   }
@@ -259,7 +259,7 @@ export const FetchChannelStatistics = async (
     setChannelStatistics(us);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました1s");
+    alert("サーバーとの接続に失敗しました at FetchChannelStatistics");
     console.error(err);
     return;
   }
@@ -297,7 +297,7 @@ export const FetchWorkspaceStatistics = async (
     setWorkspaceStatistics(us);
     return;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました1s");
+    alert("サーバーとの接続に失敗しました at FetchWorkspaceStatistics");
     console.error(err);
     return;
   }

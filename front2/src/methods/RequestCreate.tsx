@@ -36,7 +36,7 @@ export const RequestCreateUser = async (
     routerPushHome();
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました5");
+    alert("サーバーとの接続に失敗しました at RequestCreateUser");
     console.error(err);
     return false;
   }
@@ -80,7 +80,7 @@ export const RequestCreateMessage = async (
     updateMessage();
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました6");
+    alert("サーバーとの接続に失敗しました at RequestCreateMessage");
     console.error(err);
     return false;
   }
@@ -124,7 +124,7 @@ export const RequestCreateReply = async (
     updateReply();
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました6");
+    alert("サーバーとの接続に失敗しました at RequestCreateReply");
     console.error(err);
     return false;
   }
@@ -170,7 +170,7 @@ export const RequestCreateChannel = async (
     alert("チャンネルの新規登録に成功しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました5c");
+    alert("サーバーとの接続に失敗しました at RequestCreateChannel");
     console.error(err);
     return false;
   }
@@ -214,7 +214,7 @@ export const RequestCreateWorkspace = async (
     alert("ワークスペースの新規登録に成功しました");
     return true;
   } catch (err) {
-    alert("サーバーとの接続に失敗しました5w");
+    alert("サーバーとの接続に失敗しました at RequestCreateWorkspace");
     console.error(err);
     return false;
   }
